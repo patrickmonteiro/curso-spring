@@ -1,0 +1,12 @@
+spring.datasource.username: postgres
+spring.datasource.password: p0stgr3s
+spring.datasource.platform: postgres
+spring.datasource.driverClassName: "org.postgresql.Driver"
+spring.datasource.url: "jdbc:postgresql://192.168.55.124:5433/curso"
+spring.jpa.database: "POSTGRESQL"
+spring.jpa.show-sql: true
+spring.jpa.hibernate.ddl-auto: update
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+spring.jpa.properties.hibernate.temp.use_jdbc_metadata_defaults: false
